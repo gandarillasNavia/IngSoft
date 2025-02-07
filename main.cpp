@@ -25,7 +25,7 @@ int main()
 {setlocale(LC_ALL,"spanish");
 int nota[50];
 int n,may=0;
-    cout<<"¿Cuántos alumnos?"<<endl;
+    cout<<"Â¿Cantidad de alumnos?"<<endl;
     cin>>n;
     Promedio(nota,n,may);
     cout<<"La cantidad de estudiantes aprobados es "<<may<<endl;
