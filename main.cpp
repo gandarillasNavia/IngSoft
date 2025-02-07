@@ -28,6 +28,6 @@ int n,may=0;
     cout<<"¿Cantidad de alumnos?"<<endl;
     cin>>n;
     Promedio(nota,n,may);
-    cout<<"La cantidad de estudiantes aprobados es "<<may<<endl;
+    cout<<"El numero de estudiantes aprobados es "<<may<<endl;
     return 0;
 }
